@@ -1,0 +1,98 @@
+.main-div {
+    width: 400px;
+    height: 200px;
+    background-color: #ebd534;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+.post-Div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+.overlay {
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 500px;
+    height: 300px;
+    background-color: lightblue;
+    display: none;
+}
+.overlay.activeOverlay {
+    display: block;
+    animation:slideInLeft;
+    animation-duration: 1s;
+}
+.delete {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: red;
+    font-size: 28px;
+    cursor: pointer;
+}
+.content {
+    text-align: center;
+    padding-top: 30px;
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+}
+.delete-button {
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+    background-color: gray;
+    color: #fff;
+}
+.overlay-add {
+    background-color: lightblue;
+     width: 300px;
+    height: 100px;
+    display: none;
+}
+.overlay-add.activeOverlayAdd{
+    display: block;
+}
+.fa-circle-plus {
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    color: red;
+    cursor: pointer;
+}
+.form-add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+button {
+    background-color: black;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 10px;
+    width: 200px;
+}
+.add-new-post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-wraper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
